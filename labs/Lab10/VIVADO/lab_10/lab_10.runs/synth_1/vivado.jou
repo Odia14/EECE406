@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 10 17:01:34 2024
+# Process ID: 8612
+# Current directory: C:/EECE406/labs/Lab10/VIVADO/lab_10/lab_10.runs/synth_1
+# Command line: vivado.exe -log pong_top_st.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong_top_st.tcl
+# Log file: C:/EECE406/labs/Lab10/VIVADO/lab_10/lab_10.runs/synth_1/pong_top_st.vds
+# Journal file: C:/EECE406/labs/Lab10/VIVADO/lab_10/lab_10.runs/synth_1\vivado.jou
+# Running On: DESKTOP-LMFMNO5, OS: Windows, CPU Frequency: 1805 MHz, CPU Physical cores: 4, Host memory: 16527 MB
+#-----------------------------------------------------------
+source pong_top_st.tcl -notrace

@@ -1,0 +1,39 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+signal a: unsigned(7 downto 0);
+
+-- Write your VHDL code here To Assign A constant“28”to“a”;
+-- to change integer to unsigned
+a<= to_unsigned (28,8)
+
+signal sgn: signed(7 downto 0);
+
+signal v1, v2, v3: std_logic_vector(7 downto 0);
+
+signal unsgn1, unsgn2:unsigned(2 downto 0);
+
+--- Write the VHDL code to accomplish the requirements below
+
+-- Minus the value indicated by “v1” from “v2” and assign 
+
+– the result to v3;
+
+-- Your VHDL code here
+v3<= std_logic_vector(signed(v2) - signed(v1));
+
+--- assign ‘1’ to the bit position indexed by “u1” in signal
+
+--- “v2”.
+
+-- Your VHDL code here
+
+v2(to_integer(u1)) <= '1';
+
+--- Assign the value indicated by v3 to signal “sgn”;
+
+-- Your VHDL code here
+sgn<= signed(v3);
+
+
